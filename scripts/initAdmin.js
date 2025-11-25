@@ -14,6 +14,7 @@ const initializeAdmin = async () => {
         name: 'System Administrator',
         email: 'admin@talentsphere.com',
         password: hashedPassword,
+        company: 'TalentSphere',
         role: 'admin',
         isActive: true
       });
